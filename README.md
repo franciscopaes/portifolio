@@ -4,7 +4,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://github.com/franciscopaes/portifolio/blob/main/public/assets/foto1.jpg" width="25%" alt="Portfólio"/>
+  <img src="https://github.com/franciscopaes/portifolio/blob/main/public/assets/foto1.jpg" width="20%" alt="Portfólio"/>
 </p>
 
 <br/>
@@ -55,3 +55,11 @@ npm install
 
 # 4. Inicie o servidor de desenvolvimento
 npm start
+```
+
+---
+
+## 📬 Contato
+
+🔗 LinkedIn: "[Thiago Francisco](https://www.linkedin.com/in/thiago-francisco-paes/)"
+🔗 Portifólio: "[Thiagoa Francisco Paes](https://thiagofrancisco.vercel.app/)"
