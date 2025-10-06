@@ -61,5 +61,5 @@ npm start
 
 ## 📬 Contato
 
-<p>🔗 LinkedIn: "[Thiago Francisco](https://www.linkedin.com/in/thiago-francisco-paes/)"</p>
-<p>🔗 Portifólio: "[Thiagoa Francisco](https://thiagofrancisco.vercel.app/)"</p>
+<p>🔗 LinkedIn: "https://www.linkedin.com/in/thiago-francisco-paes/"</p>
+<p>🔗 Portifólio: "https://thiagofrancisco.vercel.app/"</p>
