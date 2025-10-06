@@ -1,0 +1,52 @@
+/* ====== FOOTER ====== */
+.footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #222;
+  transition: background 0.3s, color 0.3s;
+}
+
+.footer-text {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-name {
+  font-weight: 700;
+  color: #fff;
+}
+
+
+
+.footer-rights {
+  font-size: 0.95rem;
+  color: #999;
+}
+
+/* ====== MODO CLARO ====== */
+body.light .footer {
+  background-color: #f8f8f8;
+  color: #222;
+  border-top: 1px solid #ddd;
+}
+
+body.light .footer-name {
+  color: #007bff;
+}
+
+body.light .footer-rights {
+  color: #555;
+}
+
+/* ====== RESPONSIVIDADE ====== */
+@media (max-width: 600px) {
+  .footer-text {
+    font-size: 1rem;
+  }
+
+  .footer-rights {
+    font-size: 0.9rem;
+  }
+}

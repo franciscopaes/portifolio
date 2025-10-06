@@ -1,0 +1,213 @@
+/* ====== SEÇÃO OBJETIVOS ====== */
+.objectives-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+}
+
+.objectives-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.objectives-subtitle {
+  margin-top: 1rem;
+  color: #aaa;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ====== CONTAINER DOS OBJETIVOS ====== */
+.objectives-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.objective-card {
+  background: #1f1f1f;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: left;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s, color 0.3s;
+}
+
+.objective-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+}
+
+.icon-wrapper {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+
+.objective-icon {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.objective-card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  color: #fff;
+}
+
+.objective-card p {
+  color: #bbb;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* ====== MISSÃO PESSOAL ====== */
+.mission-section {
+  margin-top: 5rem;
+  background: #1f1f1f;
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s, color 0.3s;
+}
+
+.mission-icon {
+  margin: 0 auto 1.5rem;
+  width: 70px;
+  height: 70px;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.mission-text {
+  max-width: 800px;
+  margin: 1rem auto 2rem;
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.7;
+}
+
+.mission-tags {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.mission-tags .tag {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 8px;
+  background: #2c2c2c;
+  color: #7b68ee;
+  border: 1px solid #333;
+  transition: all 0.3s;
+}
+
+.mission-tags .tag:hover {
+  transform: scale(1.05);
+}
+
+/* ====== MODO ESCURO ====== */
+body.dark .objectives-section {
+  background: #1f1f1f;
+}
+
+body.dark .objectives-title {
+  color: #007bff;
+}
+
+body.dark .objectives-subtitle {
+  color: #bbb;
+}
+
+body.dark .objective-card {
+  background: #2a2a2a;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark .objective-card h3 {
+  color: #fff;
+}
+
+body.dark .objective-card p {
+  color: #ccc;
+}
+
+body.dark .mission-section {
+  background: #2a2a2a;
+}
+
+body.dark .mission-text {
+  color: #ddd;
+}
+
+body.dark .mission-tags .tag {
+  background: #1f1f1f;
+  color: #a29bfe;
+  border: 1px solid #333;
+}
+
+/* ====== MODO CLARO ====== */
+body.light .objectives-section {
+  background: #f5f5f5;
+}
+
+body.light .objectives-title {
+  color: #007bff;
+}
+
+body.light .objectives-subtitle {
+  color: #555;
+}
+
+body.light .objective-card {
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+body.light .objective-card h3 {
+  color: #111;
+}
+
+body.light .objective-card p {
+  color: #444;
+}
+
+body.light .mission-section {
+  background: #fff;
+}
+
+body.light .mission-text {
+  color: #333;
+}
+
+body.light .mission-tags .tag {
+  background: #f0f0f0;
+  color: #007bff;
+  border: 1px solid #ddd;
+}
+
+/* ====== RESPONSIVIDADE ====== */
+@media (max-width: 768px) {
+  .objectives-title {
+    font-size: 2rem;
+  }
+
+  .mission-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
